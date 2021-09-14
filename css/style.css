@@ -1,0 +1,448 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+.bgcolor.scrolled{
+    background-color: #000;
+}
+
+
+
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: fixed;
+    z-index: 5;
+    
+
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f25454;
+    
+}
+
+
+
+.Home .carousel-item{
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center ;
+    position: relative;
+
+}
+
+.carousel-item .container{
+    position: absolute;
+    top:50%;
+    left: 7%;
+}
+
+.carousel-item .container h2{
+    color: #fff;
+    font-size: 5vw;
+}
+
+.carousel-control-1{
+    /* padding: 15px; */
+    border: solid rgb(247, 241, 241) 1px;   
+    
+}
+
+.arows{
+
+    position: absolute;
+    bottom: 50vh;
+    display: flex;
+    flex-direction:column;
+}
+
+.back-arrow{
+    padding: 10px;
+}
+
+
+.back-arrow:hover{
+    background-color: rgb(240, 230, 230);
+    
+}
+
+
+.lower{
+    font-family:  Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower h2{
+  
+    color: #dee3e4;
+    font-size: 6vw;
+    font-weight: 900;
+
+}
+
+.Upper{
+  
+    position: absolute;  
+}
+
+.Upper h3{
+    font-weight: 800;
+}
+
+.lin{
+    height: 1px;
+    width: 30px;
+    margin: auto;
+    background-color: black;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.Upper:hover .lin{
+    width: 50px;
+
+} 
+
+.About p{
+    font-size: 17px;
+    color: #999;
+ 
+}
+
+.about p{
+    font-size: 18px;
+    color: #999;
+    padding: 0px 25%;
+}
+
+.perc1{
+    margin: 10px auto;   
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.red-colorr{
+    background-color: #f25454;
+}
+
+
+.Team-images{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    
+}
+
+.Team-icons{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 84, 84, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.Team-images img{
+    transition: all 1s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Team-icons i{
+
+    padding: 10px;
+    color: #fff;
+}
+
+.Team-client:hover .Team-icons{
+    opacity: 1;
+}
+
+.Team-client:hover h5{
+    color: crimson;
+}
+
+.Team-client:hover img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.Contact-btn button
+{
+    color: #fff;
+    background-color: #f25454;
+    border-color:#f25454 ;
+    border-radius: 3px;
+    padding: 18px 30px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.Service-item:hover h5{
+    color: #f25454;
+}
+
+.Service-itemp{
+    font-family: "Open Sans", sans-serif;
+    color: #666;
+}
+
+.bg-gray{
+    background-color: #fafafa;
+}
+
+.info-address:hover h4{
+    color: crimson;
+}
+
+.borDder{
+    background-color: #eee;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+
+.Contact-input input{
+    
+    padding-left: 10px;
+    width: 90%;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(101, 101, 101);
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+    margin: 10px;
+}
+
+
+.Contact-input textarea{
+    padding-left: 10px;
+    width: 90%;
+    color: rgb(101, 101, 101);
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.Contact-form button{
+    margin: 10px;
+    border-radius: 3px;
+    padding: 18px 30px;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f25454;
+    border-color:#f25454 ;
+}
+
+.Contact-form button:hover
+{
+    background-color: #ee7979;
+    border-color:#ee7979 ;
+}
+
+.Summary{
+    background-image: url(../img/contact-details-map.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+.drk{
+    background-color: rgba(9, 9, 10, 0.8) ;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.zindex{
+    position: relative;
+    z-index: 2;
+}
+
+.Summary h3{
+    margin: 40px 0px;
+    color: #fff !important;
+}
+
+.Summary a{
+    text-decoration: none;
+    color: #b0b0b0 !important;
+    margin: 10px 0px;
+}
+
+.Summary a:hover{
+    
+    color: crimson !important;
+}
+.Popular button:hover{
+    
+    color: crimson;
+    border-color: crimson;
+}
+
+
+.Summary {
+    color: #b0b0b0;
+}
+
+
+.Popular button{
+    color: #b0b0b0;
+    margin: 2px 2px;
+    background-color: transparent;
+    padding: 2px 5px;
+    border: #b0b0b0 solid 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Copyright {
+    background-color: #1a1a1a;  
+    color: #b0b0b0;
+}
+
+.Copyright i:hover ,b:hover{
+    color: crimson !important; 
+}
+
+.red{
+    margin: 1px;
+    background-color: #f25454;
+    height: 20px;
+    width: 20px;
+}
+.blue{
+    margin: 1px;
+    background-color: #4e9cb5;
+    height: 20px;
+    width: 20px;
+}
+.green{
+    margin: 1px;
+    background-color: #24bca4;
+    height: 20px;
+    width: 20px;
+}
+.turquoise{
+    margin: 1px;
+    background-color: #46cad7;
+    height: 20px;
+    width: 20px;
+}
+.purple{
+    margin: 1px;
+    background-color: #c86f98;
+    height: 20px;
+    width: 20px;
+}
+.orange{
+    margin: 1px;
+    background-color: #ee8f67;
+    height: 20px;
+    width: 20px;
+}
+.yellow{
+    margin: 1px;
+    background-color: #e4d20c;
+    height: 20px;
+    width: 20px;
+}
+.gray{
+    margin: 1px;
+    background-color: #b5c9cf;
+    height: 20px;
+    width: 20px;
+}
+
+.setting .btn{
+    position: fixed;
+    top: 60%;
+    left: 0;
+}
+.setting .ul{
+    list-style-type:none;
+}
+
+.block4-wrap {
+	display:flex
+}
+.block4 {
+	flex:1 0 25%;
+	background:#000;
+	color:#fff;
+    
+}
+.my-captions{margin:10px;padding-bottom:3em}
+
+/* fix width and make user scroll with mouse/touch to see the items */
+@media screen and (max-width:768px){
+	.block4{max-width:280px;flex:1 0 100%;overflow:hidden}	
+	.carousel{overflow:hidden;}
+	.carousel-inner{overflow-x:visible;}
+}
+@media screen and (max-width:480px){
+	.block4{max-width:240px;}	
+}
+
+.Reviews{
+    width: 80%;
+}
+
+
+.carousel-indicators img.active{
+    width: 220px !important;
+    height: 220px !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 170px;
+    width: 170px;
+}
+
+.carousel-indicators h3{
+    opacity: 0;
+}
+
+
+.carousel-item-indicator img.active + h3{
+    opacity: 1;
+}
